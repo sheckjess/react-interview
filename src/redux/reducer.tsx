@@ -10,6 +10,7 @@ export const initialState: DealsListType = {
       institution: "LS Credit Union",
       dealSize: "1000000",
       dealType: "Consumer Auto",
+      isValidated: true,
       isPublished: true,
     },
     {
@@ -17,6 +18,7 @@ export const initialState: DealsListType = {
       institution: "LS Credit Union",
       dealSize: "5000000",
       dealType: "Real Estate",
+      isValidated: true,
       isPublished: false,
     },
   ],

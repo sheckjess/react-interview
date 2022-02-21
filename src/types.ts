@@ -3,6 +3,7 @@ export type DealType = {
     institution: string;
     dealSize: string;
     dealType: string;
+    isValidated: boolean;
     isPublished: boolean
 }
 

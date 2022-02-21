@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import noop from "lodash/noop";
 import { DealType } from "../../types";
 import "./NewDealForm.scss";
@@ -7,6 +7,7 @@ const DEFAULT_DEAL: DealType = {
   institution: "",
   dealType: "",
   dealSize: "",
+  isValidated: false,
   isPublished: false,
 };
 
